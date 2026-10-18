@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-16T16:14:23.891490+00:00",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "game_state_lab": {
+    "checks": {
+      "compiled_owned_fixture": "passed",
+      "function_bytes_fully_disassembled": "passed",
+      "controlled_state_modification": "passed",
+      "negative_damage_and_health_floor": "passed",
+      "score_input_control": "passed"
+    },
+    "source_sha256": "de2d693c668fcba0b6e4ce1df39ab27b7d28f410bcef9db46bb84350b71a5652",
+    "binary_sha256": "d50011c5cd760c31f7875e8b2d3232ff4886456f85e97a9e4b2c6dae79950e80",
+    "function": "apply_damage",
+    "function_bytes": 62,
+    "instruction_count": 23,
+    "player_size": 8,
+    "health_offset": 0,
+    "score_offset": 4,
+    "scope": "Own ctypes object and own freshly compiled library; no external process access"
+  },
+  "license_lab": {
+    "checks": {
+      "valid_synthetic_license": "passed",
+      "tampered_claim_rejected": "passed",
+      "expired_license_rejected": "passed",
+      "wrong_application_rejected": "passed",
+      "missing_feature_rejected": "passed"
+    },
+    "scope": "Own signed fixtures; keys remain ephemeral; no commercial licensing tested"
+  },
+  "limitations": "Educational fixtures only; no external memory scanning, injection, anti-cheat evasion or commercial crack tested"
+}
+

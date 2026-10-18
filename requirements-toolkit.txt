@@ -1,0 +1,7 @@
+capstone==5.0.9
+cffi==2.1.1
+cryptography==50.0.2
+lief==1.0.0
+pycparser==3.11
+pyelftools==0.33
+

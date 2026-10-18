@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-16T16:10:33.288520+00:00",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "python": "3.12.14",
+  "installed": {
+    "capstone": "5.0.9",
+    "lief": "1.0.0",
+    "pyelftools": "0.33",
+    "cryptography": "50.0.2"
+  },
+  "checks": {
+    "synthetic_x86_64_disassembly": "passed",
+    "elf_read_lief_and_pyelftools": "passed",
+    "aes_gcm_roundtrip_and_tamper_rejection": "passed",
+    "ed25519_signature_and_tamper_rejection": "passed"
+  },
+  "elf_fixture": {
+    "identity": "current_python_interpreter",
+    "sha256": "fa67443527ed9647f760d807e2a38f26340757123e643c4639cf273ed15d5ea7"
+  },
+  "pypi_metadata": {
+    "capstone": {
+      "pypi_reported_version": "5.0.9",
+      "matches_installed": true,
+      "note": "Latest project version may have different platform requirements"
+    },
+    "lief": {
+      "pypi_reported_version": "1.0.0",
+      "matches_installed": true,
+      "note": "Latest project version may have different platform requirements"
+    },
+    "pyelftools": {
+      "pypi_reported_version": "0.33",
+      "matches_installed": true,
+      "note": "Latest project version may have different platform requirements"
+    },
+    "cryptography": {
+      "pypi_reported_version": "50.0.2",
+      "matches_installed": true,
+      "note": "Latest project version may have different platform requirements"
+    }
+  },
+  "scope": "Synthetic smoke checks and one local ELF read; no anti-cheat or commercial protection tested"
+}
+

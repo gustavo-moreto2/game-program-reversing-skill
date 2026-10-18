@@ -1,0 +1,6 @@
+Original: https://github.com/morluto/rea
+Revision: 781d5751ad18b25a1fe1ffa8c6035388be8c3283
+ZIP archives omit submodules. Fetch REA separately:
+git clone https://github.com/morluto/rea.git rea
+git -C rea checkout 781d5751ad18b25a1fe1ffa8c6035388be8c3283
+
